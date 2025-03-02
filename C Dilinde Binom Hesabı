@@ -19,11 +19,11 @@ unsigned long long binom_katsayisi(unsigned int n, unsigned int k) {
 }
 int main() {
  unsigned int n, k;
-printf("n değerini girin: ");
+printf("n degerini girin: ");
  scanf("%u", &n);
-printf("k değerini girin: ");
+printf("k degerini girin: ");
  scanf("%u", &k);
 unsigned long long sonuc = binom_katsayisi(n, k);
- printf("%u'nin %u'lu binom katsayısı: %llu\n", n, k, sonuc);
+ printf("%u'nin %u'lu binom katsayisİ: %llu\n", n, k, sonuc);
 return 0;
 }
